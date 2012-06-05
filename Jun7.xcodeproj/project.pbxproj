@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031C873D157D7E3C007707DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031C873C157D7E3C007707DF /* UIKit.framework */; };
+		031C873F157D7E3C007707DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031C873E157D7E3C007707DF /* Foundation.framework */; };
+		031C8741157D7E3C007707DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031C8740157D7E3C007707DF /* CoreGraphics.framework */; };
+		031C8747157D7E3C007707DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 031C8745157D7E3C007707DF /* InfoPlist.strings */; };
+		031C8749157D7E3C007707DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 031C8748157D7E3C007707DF /* main.m */; };
+		031C874D157D7E3C007707DF /* Jun7AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 031C874C157D7E3C007707DF /* Jun7AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031C8738157D7E3C007707DF /* Jun7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jun7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		031C873C157D7E3C007707DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		031C873E157D7E3C007707DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		031C8740157D7E3C007707DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		031C8744157D7E3C007707DF /* Jun7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jun7-Info.plist"; sourceTree = "<group>"; };
+		031C8746157D7E3C007707DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		031C8748157D7E3C007707DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		031C874A157D7E3C007707DF /* Jun7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jun7-Prefix.pch"; sourceTree = "<group>"; };
+		031C874B157D7E3C007707DF /* Jun7AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jun7AppDelegate.h; sourceTree = "<group>"; };
+		031C874C157D7E3C007707DF /* Jun7AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jun7AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031C8735157D7E3C007707DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C873D157D7E3C007707DF /* UIKit.framework in Frameworks */,
+				031C873F157D7E3C007707DF /* Foundation.framework in Frameworks */,
+				031C8741157D7E3C007707DF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031C872D157D7E3C007707DF = {
+			isa = PBXGroup;
+			children = (
+				031C8742157D7E3C007707DF /* Jun7 */,
+				031C873B157D7E3C007707DF /* Frameworks */,
+				031C8739157D7E3C007707DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		031C8739157D7E3C007707DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				031C8738157D7E3C007707DF /* Jun7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		031C873B157D7E3C007707DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				031C873C157D7E3C007707DF /* UIKit.framework */,
+				031C873E157D7E3C007707DF /* Foundation.framework */,
+				031C8740157D7E3C007707DF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		031C8742157D7E3C007707DF /* Jun7 */ = {
+			isa = PBXGroup;
+			children = (
+				031C874B157D7E3C007707DF /* Jun7AppDelegate.h */,
+				031C874C157D7E3C007707DF /* Jun7AppDelegate.m */,
+				031C8743157D7E3C007707DF /* Supporting Files */,
+			);
+			path = Jun7;
+			sourceTree = "<group>";
+		};
+		031C8743157D7E3C007707DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				031C8744157D7E3C007707DF /* Jun7-Info.plist */,
+				031C8745157D7E3C007707DF /* InfoPlist.strings */,
+				031C8748157D7E3C007707DF /* main.m */,
+				031C874A157D7E3C007707DF /* Jun7-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		031C8737157D7E3C007707DF /* Jun7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031C8750157D7E3C007707DF /* Build configuration list for PBXNativeTarget "Jun7" */;
+			buildPhases = (
+				031C8734157D7E3C007707DF /* Sources */,
+				031C8735157D7E3C007707DF /* Frameworks */,
+				031C8736157D7E3C007707DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jun7;
+			productName = Jun7;
+			productReference = 031C8738157D7E3C007707DF /* Jun7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		031C872F157D7E3C007707DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 031C8732157D7E3C007707DF /* Build configuration list for PBXProject "Jun7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 031C872D157D7E3C007707DF;
+			productRefGroup = 031C8739157D7E3C007707DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031C8737157D7E3C007707DF /* Jun7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		031C8736157D7E3C007707DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C8747157D7E3C007707DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031C8734157D7E3C007707DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C8749157D7E3C007707DF /* main.m in Sources */,
+				031C874D157D7E3C007707DF /* Jun7AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		031C8745157D7E3C007707DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031C8746157D7E3C007707DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		031C874E157D7E3C007707DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		031C874F157D7E3C007707DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		031C8751157D7E3C007707DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jun7/Jun7-Prefix.pch";
+				INFOPLIST_FILE = "Jun7/Jun7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		031C8752157D7E3C007707DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jun7/Jun7-Prefix.pch";
+				INFOPLIST_FILE = "Jun7/Jun7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031C8732157D7E3C007707DF /* Build configuration list for PBXProject "Jun7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031C874E157D7E3C007707DF /* Debug */,
+				031C874F157D7E3C007707DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031C8750157D7E3C007707DF /* Build configuration list for PBXNativeTarget "Jun7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031C8751157D7E3C007707DF /* Debug */,
+				031C8752157D7E3C007707DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 031C872F157D7E3C007707DF /* Project object */;
+}
